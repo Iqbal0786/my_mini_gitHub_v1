@@ -1,0 +1,178 @@
+body{
+    margin: 0px;
+}
+#navbar{
+
+
+    display: flex;
+    background-color: black;
+    color: white;
+}
+
+#logo img{
+    width: 30%;
+    padding: 9px;
+}
+
+#profile-img{
+width: 50%;
+border-radius: 50%;
+height: 40px;
+margin-top: 5px;
+
+}
+
+#list li{
+
+    display: inline;
+    margin-right: 2%;
+}
+#search{
+
+    width: 10%;
+    padding: 12px;
+}
+
+#logo{
+
+    width: 7%;
+    text-align: end;
+}
+#options{
+      margin-left: 10px;
+    width: 75%;
+}
+#profile{
+
+    width: 5%;
+}
+#main{
+    width: 95%;
+    height: 650px;
+    /* border: 1px solid red; */
+    display: flex;
+    margin: auto;
+    margin-top: 20px;
+    gap: 10px;
+}
+#aboutDiv{
+    flex: 2;
+    height: 600px;
+    /* border: 1px solid green; */
+}
+#aboutDiv > img{
+     width: 70%;
+     height: 250px;
+     border-radius: 70%;
+     margin-left: 40px;
+   
+}
+#nameDiv{
+    /* border:1px solid yellow; */
+    line-height: 8px;
+    padding-left: 40px;
+}
+#nameDiv > h1{
+    font-family: sans-serif;
+    font-size: 24px;
+}
+#userBio{
+    width: 90%;
+    max-height: 100px;
+    /* border: 1px solid yellowgreen; */
+    line-height: 25px;
+    font-family: sans-serif;
+    font-size: 19px;
+    padding-left: 40px;
+}
+#editBtn{
+     width: 80%;
+     height: 40px;
+     margin-left: 40px;
+     border-radius: 8px;
+     border: none;
+     font-weight: bold;
+     font-size: 15px;
+     background-color: chocolate;
+     color: rgb(255, 248, 248);
+}
+#followDiv{
+    width: 45%;
+    height: 40px;
+    /* border: 1px solid orangered; */
+    margin-left: 40px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+}
+#followDiv > i{
+    margin-top: 15px;
+    line-height: 5px;
+    margin-right: -20px;
+}
+#followDiv > p{
+    margin-top: 10px;
+}
+#followDiv>#following{
+    margin-left: -20px;
+}
+#locationDiv{
+    width: 45%;
+    height: 40px;
+    /* border: 1px solid orangered; */
+    margin-left: 40px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+#locationDiv > p{
+   margin-top: 10px;
+   padding-right: 10px;
+}
+#locationDiv > i{
+    margin-top: 10px;
+    margin-left: 15px;
+    
+ }
+#repoListDiv{
+    flex: 3;
+    /* border: 1px solid green; */
+    overflow: auto;
+    
+}
+#repoListDiv > .childDiv{
+    width: 98%;
+    height: 110px;
+    border-bottom: 1px solid gray;
+    margin-bottom: -10px;
+    padding-left: 10px;
+    margin-bottom: 10px;
+
+   
+}
+.childDiv > .aboutDiv{
+    width: 45%;
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+     margin-top: -10px;
+    /* border: 1px solid green; */
+    font-family: sans-serif;
+   
+}
+.childDiv >p{
+    /* margin-top: 5px; */
+    font-family: sans-serif;
+    font-size: 19px;
+    color: #08345b;
+    cursor: pointer;
+}
+.aboutDiv>p{
+    margin-top: 2px;
+    font-family: monospace;
+    font-size: 19px;
+    color: gray;
+
+}
